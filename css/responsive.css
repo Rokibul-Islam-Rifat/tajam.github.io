@@ -1,0 +1,351 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .center-img{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 12%;
+    }
+
+    .navbar-nav {
+        background: #151313;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scrolltop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner_text {
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+
+    .about_text h2 {
+        text-align: center;
+        margin-top: 25px;
+        color: #30235F;
+    }
+
+    .about_text a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .video_i {
+        font-size: 24px;
+        width: 16%;
+        padding: 21px 30px;
+    }
+
+    #video_part {
+        padding: 120px 0px;
+    }
+
+    #service_part {
+        padding: 25px 0px;
+    }
+    .service_head p::after {
+        top: 38px;
+    }
+
+    .srevice_text {
+        padding-top: 25px;
+    }
+
+    .srevice_text img {
+        padding-bottom: 20px;
+    }
+
+    .srevice_text h5 {
+        padding-bottom: 10px;
+    }
+
+#team_part {
+        padding: 20px 0px;
+    }
+
+    #project {
+        padding: 15px 0px;
+    }
+
+    .project-bottom {
+        padding-top: 25px;
+    }
+    .team_text_top p::after {
+	top: 45px;
+}
+    .team_text_top p {
+	padding-bottom: 25px;
+}
+    .team_text_bottom p {
+	padding-bottom: 0px;
+}.project-bottom a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .team_slider_text p {
+	 padding-bottom: 0; 
+}
+    .slider_img {
+	width: 322px;
+}
+    .team_arrow_left {
+	left: 16%;
+	top: 89%;
+}
+    .team_arrow_right {
+	right: 15%;
+	top: 89%;
+}
+    .center-img{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contact_left h3,
+    .contact_right h3 {
+        padding-bottom: 10px;
+        text-align: center;
+        color: #30235F;
+    }
+     .contact-btn {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #footer {
+	padding: 15px 0px;
+}
+
+    .footer_top_wrap {
+        text-align: center;
+    }
+    
+
+    .form-inline {
+        display: inline-block;
+    }
+    .footer_top_right .bg-color {
+	margin-bottom: 10px;
+}
+
+    .footer_top_right .bg-color-btn {
+        padding: 8px 40px 8px 40px;
+    }
+    .footer_top_left p {
+	padding-right: 0;
+}
+
+    .footer_bottom_left ul li a {
+        font-size: 15px;
+    }
+    
+
+    .footer_top_right {
+        text-align: center;
+        display: inline-block;
+    }
+    .text-right {
+	text-align: none;
+}
+    .footer_bottom_wrap{
+        text-align: center;
+    }
+    .footer_bottom_left {
+	margin: 0 auto;
+	display: inline-block;
+}
+    .footer_bottom_right{
+        text-align: center;
+}
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 12%;
+    }
+
+    .navbar-nav {
+        background: #151313;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/scrolltop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner_text {
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+
+    .about_text h2 {
+        text-align: center;
+        margin-top: 25px;
+        color: #30235F;
+    }
+
+    .about_text a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .video_i {
+        font-size: 25px;
+        width: 12%;
+        padding: 18px 30px;
+    }
+
+    #video_part {
+        padding: 120px 0px;
+    }
+
+    #service_part {
+        padding: 25px 0px;
+    }
+
+    .service_head p::after {
+        top: 38px;
+    }
+
+    .srevice_text {
+        padding-top: 25px;
+    }
+
+    .srevice_text img {
+        padding-bottom: 20px;
+    }
+
+    .srevice_text h5 {
+        padding-bottom: 10px;
+    }
+
+    .project-bottom a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .team_text_top p {
+        padding-bottom: 15px;
+    }
+
+    .team_text_top p::after {
+        top: 35px;
+    }
+
+    .team_slider {
+        padding-bottom: 66px;
+    }
+
+    #team_part {
+        padding: 20px 0px;
+    }
+
+    #project {
+        padding: 15px 0px;
+    }
+
+    .project-bottom {
+        padding-top: 25px;
+    }
+
+    .team_arrow_left {
+        left: 12%;
+        top: 80%;
+    }
+
+    .team_arrow_right {
+        right: 11%;
+        top: 80%;
+    }
+
+    .contact_left h3,
+    .contact_right h3 {
+        padding-bottom: 10px;
+        text-align: center;
+        color: #30235F;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer_top_wrap {
+        text-align: center;
+    }
+
+    .form-inline {
+        display: inline-block;
+    }
+
+    .footer_top_right .bg-color-btn {
+        padding: 8px 40px 8px 40px;
+    }
+
+    .footer_bottom_left ul li a {
+        font-size: 15px;
+    }
+
+    .footer_top_right {
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .team_arrow_left {
+        left: 22%;
+    }
+
+    .team_arrow_right {
+        right: 21%;
+    }
+
+    .footer_top_right ul li {
+        margin-right: 8px;
+    }
+
+    .footer_top_right .bg-color {
+        padding: 18px 16px;
+    }
+
+    .video_i {
+        font-size: 30px;
+        padding: 25px 25px;
+    }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
