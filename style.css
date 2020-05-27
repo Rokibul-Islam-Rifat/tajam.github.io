@@ -343,7 +343,6 @@ p {
 
 /*team part start*/
 #team_part {
-    background: url(img/teamimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
