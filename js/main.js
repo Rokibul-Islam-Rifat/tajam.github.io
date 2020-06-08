@@ -135,6 +135,6 @@ $(document).ready(function () {
     
     //    preloader part
     $(window).on('load', function(){
-        $('.preloader').delay(2000).fadeOut(1000);
+        $('.preloader').delay(1500).fadeOut(500);
     })
 });
